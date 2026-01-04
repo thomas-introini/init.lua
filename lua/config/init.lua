@@ -16,11 +16,13 @@ end
 Nnoremap = CreateNoremap("n", { noremap = true })
 Inoremap = CreateNoremap("i", { noremap = true })
 
+vim.g.mapleader = " "
+vim.g.maplocalleader = ","
+
+
 require('config.set')
-require("config.packer")
+require("config.lazy")
+
+vim.cmd.colorscheme("tokyonight")
+
 require('config.remaps')
--- require("config.gitsigns")
--- require("config.nvim-tree")
--- require("config.surround")
--- require("config.trouble")
--- require("config.which-key")

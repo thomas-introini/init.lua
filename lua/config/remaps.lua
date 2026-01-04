@@ -9,7 +9,7 @@ vim.keymap.set("n", "<leader>sv", ":so $MYVIMRC<CR>")
 
 vim.keymap.set("n", "<C-a>", "ggVG")
 
-vim.keymap.set("n", "<leader>e.", vim.cmd.Ex)
+-- vim.keymap.set("n", "<leader>e.", vim.cmd.Ex)
 
 vim.keymap.set("n", "<leader>u", ":UndotreeToggle<CR>")
 
